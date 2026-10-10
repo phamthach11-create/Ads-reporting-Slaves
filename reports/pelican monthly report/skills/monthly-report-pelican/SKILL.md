@@ -20,7 +20,7 @@ Update the prior-month Pelican PPTX in place or as a new copy, as directed by th
 - Use the requested report month and compare with the immediately preceding month where the slide requires comparison.
 - Keep the source PPTX unchanged unless the user explicitly allows overwrite.
 - Do not invent metrics, explanations, locations, keywords, or conclusions.
-- Use Google Ads Advisor output only after reconciling its metrics with visible account data.
+- Use Google Ads Ask Advisor responses directly for analysis, as instructed by the user. Do not recheck Advisor metrics against account tables. Set the correct reporting dates and Pelican-only scope in the question, then summarize faithfully.
 - Shorten analysis to fit inherited text boxes; do not shrink template fonts to force copy to fit.
 - Screenshots must contain only the requested Overview card, not date controls, filters, navigation, or neighboring cards.
 - Slide 10 is a native chart built from matched-location data, never a screenshot.

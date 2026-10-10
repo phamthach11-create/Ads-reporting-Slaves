@@ -8,7 +8,7 @@ Replace bracketed dates with the requested reporting periods. Keep the Pelican-o
 
 ## Keyword analysis
 
-> Give me a concise [current month] keyword analysis for campaigns whose name contains Pelican. Structure it as: 1) Top Pelican Keywords, 2) Search Intent & Competition, 3) Ad Engagement. Use the current verified keyword table data. Keep the analysis brief enough for one presentation slide and do not include non-Pelican campaigns.
+> Give me a concise [current month] keyword analysis for campaigns whose name contains Pelican. Structure it as: 1) Top Pelican Keywords, 2) Search Intent & Competition, 3) Ad Engagement. Use the account data available to Ask Advisor. Keep the analysis brief enough for one presentation slide and do not include non-Pelican campaigns.
 
 ## Age and gender
 
@@ -24,11 +24,11 @@ Replace bracketed dates with the requested reporting periods. Keep the Pelican-o
 
 ## Advisor output checks
 
-- Verify every metric against the visible Google Ads table or card.
+- Confirm the prompt requests the intended reporting dates and Pelican-only scope. Use the response directly; do not cross-check its metrics against tables or cards.
 - Remove statements based on external web sources unless the user requests them.
 - Replace vague superlatives with measured comparisons.
 - Shorten prose without changing numbers or causal uncertainty.
 
 ## Matched locations
 
-> Give me a concise matched-location analysis for [current month], only campaigns whose names contain Pelican, including enabled and paused campaigns with historical data. Use Matched locations at Regions level. Cover cost, conversions, grouped cost/conversion, non-converting spend and measured geographic opportunities. Reconcile to the supplied verified Region totals; do not use all-account or single-campaign figures as Pelican totals.
+> Give me a concise matched-location analysis for [current month], only campaigns whose names contain Pelican, including enabled and paused campaigns with historical data. Use Matched locations at Regions level. Cover cost, conversions, grouped cost/conversion, non-converting spend and measured geographic opportunities. Use combined Pelican Region data available to Advisor, not all-account or a single campaign as the combined total.

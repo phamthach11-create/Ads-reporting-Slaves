@@ -14,3 +14,7 @@ Chat có nội dung bộ skill cũ `monthly-report-pelican`, workflow và adviso
 - Quy trình Pelican gồm chụp ba card Overview. Quy tắc LPC “người dùng tự chụp ảnh” không tự áp dụng cho Pelican.
 - Kiểm tra quyền truy cập Ads, GA4, Ask Advisor và khả năng chỉnh/render PPTX khi bắt đầu báo cáo. Không tự khẳng định có kết nối chỉ từ lịch sử.
 - Không lưu số liệu tháng 9 như mặc định tháng mới. Không dọn file người dùng hoặc OneDrive dựa trên quyền dọn bản đệm trong chat lịch sử.
+
+## Current user overrides
+
+On 10/10/2026, the user instructed that Ask Advisor analysis be used directly without cross-checking its metrics against account tables, to avoid unnecessary delay. This supersedes historical numeric verification requirements for Advisor analysis. Keep correct dates and Pelican-only scope in prompts and summarize faithfully. Raw data collection, chart calculations, screenshot correctness and PPTX structural/visual checks remain part of preparing the report. The user also confirmed that the agent takes the three Overview screenshots; the user will review them afterwards.

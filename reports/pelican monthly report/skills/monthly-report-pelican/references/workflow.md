@@ -27,7 +27,7 @@
 - Query Google Ads Advisor with the performance prompt in `advisor-prompts.md`.
 - Include only Pelican campaigns.
 - Shorten the response and distribute ideas across the inherited analysis boxes.
-- Retain verified numbers and remove unsupported or overly long commentary.
+- Use Advisor numbers directly and shorten its response faithfully; do not collect duplicate data to cross-check the analysis.
 
 ## Slide 4 — Keyword table
 
@@ -41,7 +41,7 @@
 
 - Query Ads Advisor with the keyword prompt in `advisor-prompts.md`.
 - Structure the output around top keywords, search intent and competition, and engagement.
-- Keep only claims supported by visible keyword or auction data.
+- Summarize Advisor directly, preserving its meaning and figures. Do not recheck the analysis against keyword or auction tables.
 
 ## Slide 6 — GA4 acquisition
 
@@ -105,7 +105,7 @@ Use the GA4 property associated with Pelican/Larson Packaging.
 
 ## Slide 11 — Conclusion
 
-- Synthesize only verified findings already present in the deck.
+- Synthesize findings already present in the deck, including the directly summarized Advisor responses.
 - State the strongest channel, keyword/device/time/location opportunities, and the most important efficiency risk.
 - Do not introduce new metrics or speculative initiatives.
 
@@ -126,7 +126,7 @@ Use the GA4 property associated with Pelican/Larson Packaging.
 - Keyword table contains at most 10 rows.
 - Overview screenshots contain only their individual cards.
 - Slide 10 remains an editable native chart.
-- Every analysis statement matches visible data.
+- Advisor summaries preserve the response figures and meaning, with the correct period and Pelican scope; no separate numeric cross-check is required.
 - Speaker notes include source, date range, filters, and calculation notes.
 - Final PPTX reopens successfully and edited slides have no clipping or overlap.
 
@@ -136,6 +136,6 @@ Use the GA4 property associated with Pelican/Larson Packaging.
 - Include enabled and paused Pelican campaigns with historical data; do not use current status as a substitute for activity in the reporting month.
 - Use only Pelican totals in every analysis; old template sections contained LPC/all-account metrics and rolling 30-day periods.
 - Preserve real missing-source categories in GA4 rankings; do not replace them with last month's preferred sources.
-- Reconcile regional metrics at the combined Pelican scope, not a single campaign scope. Device cards must use the intended conversion metric, not a narrower lead action without disclosure.
+- Historical regional cross-checking is superseded for Advisor analysis by the user instruction below. Use the combined Pelican scope in the Advisor prompt. Device screenshots still use the intended conversion metric.
 - PPTX export previously lost chart-workbook relationships. Verify all three editable charts retain valid embedded workbook links and that chart caches match workbook data after export.
 - September structural checks passed, but visual rendering hung. That historical result does not establish visual approval: render and inspect the new deck before claiming visual checks pass.
