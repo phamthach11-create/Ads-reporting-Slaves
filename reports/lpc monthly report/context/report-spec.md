@@ -36,6 +36,6 @@ Sheet 1 `Larsonpkg` đã được hướng dẫn ngày 10/10/2026: báo cáo t�
 
 Performance phân tích riêng subscriber và các campaign khác. Matched Location và Audience analysis loại subscriber. Nếu đã xác minh subscriber không hoạt động trong toàn bộ kỳ, có thể bỏ phần nhắc subscriber trong câu hỏi Ask Advisor; không chỉ dựa vào trạng thái Paused hiện tại.
 
-## Campaign subscriber không có chi tiêu
+## Campaign không có chi tiêu
 
-Quy tắc xác nhận ngày 11/10/2026: Không hiển thị campaign subscriber có Cost = 0 trong bảng Campaign performance ở sheet `Larsonpkg`. Khi đồng thời không có subscriber conversion, bỏ chỉ số subscriber bằng 0 và dòng nhận xét riêng cho campaign này. Quy trình chi tiết, ngoại lệ conversion và cách cập nhật công thức được duy trì tại `../skills/lpc-monthly-report/sheet-1-larsonpkg.md`, mục `Subscriber không có chi tiêu`.
+Quy tắc chung xác nhận ngày 11/10/2026: Mọi campaign có Cost = 0 trong khoảng thời gian báo cáo được coi là không chạy trong kỳ và không hiển thị trong báo cáo, bất kể loại campaign hoặc trạng thái hiện tại. Chỉ trình bày campaign có Cost > 0. Giữ dữ liệu gốc và tổng nguồn để đối soát; cập nhật công thức và biểu đồ theo các campaign còn lại. Quy trình chi tiết được duy trì tại `../skills/lpc-monthly-report/sheet-1-larsonpkg.md`, mục `Campaign không có chi tiêu`.
