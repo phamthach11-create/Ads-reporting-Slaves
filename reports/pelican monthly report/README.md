@@ -10,4 +10,4 @@ Báo cáo PowerPoint .pptx, 11 slide theo quy trình đã rút từ chat **Pelic
 
 Google Ads chỉ gồm campaign có tên chứa Pelican. Giữ thiết kế PowerPoint, chart có thể chỉnh sửa, đối soát số liệu và kiểm tra trực quan. Không dùng lẫn skill, mẫu hay quy tắc LPC.
 
-Đã lưu skill; chưa có file mẫu PPTX trong repository và chưa chạy báo cáo mới trong cloud.
+Đã lưu skill và mẫu `templates/Monthly report - Pelican - September 2026.pptx`. Cấu trúc mẫu được ghi trong `templates/template-structure.md`; chưa chạy báo cáo mới trong cloud.

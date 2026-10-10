@@ -10,7 +10,7 @@ Chat có nội dung bộ skill cũ `monthly-report-pelican`, workflow và adviso
 - Tài khoản Google Ads: Larson Packaging Company; scope campaign name contains Pelican.
 - GA4 property được xác minh trong chat là “Pelican - Larson Packaging”; chưa xác định property ID trong phần trích dẫn này. Không dùng ID GA4 của LPC mặc định.
 - Bản chính tháng 9 được người dùng xác nhận nằm trên OneDrive: `Upwork/Jason Connors, Ballistix/report/Sep/Weekly report 9.27 to 10.3/Monthly report - Pelican - September 2026.pptx`.
-- Đây là vị trí được ghi nhận trong chat, chưa chứng minh máy cloud truy cập được file. File PPTX chưa được sao chép vào repository. Cần lấy bản chính bằng kết nối có quyền hoặc người dùng đính kèm trước khi chỉnh deck.
+- Đây là vị trí được ghi nhận trong chat, chưa chứng minh máy cloud truy cập được file. Người dùng đã đính kèm file mẫu tháng 9, được lưu nguyên byte tại `templates/Monthly report - Pelican - September 2026.pptx` ngày 10/10/2026. Dùng mẫu đã lưu, không yêu cầu gửi lại.
 - Quy trình Pelican gồm chụp ba card Overview. Quy tắc LPC “người dùng tự chụp ảnh” không tự áp dụng cho Pelican.
 - Kiểm tra quyền truy cập Ads, GA4, Ask Advisor và khả năng chỉnh/render PPTX khi bắt đầu báo cáo. Không tự khẳng định có kết nối chỉ từ lịch sử.
 - Không lưu số liệu tháng 9 như mặc định tháng mới. Không dọn file người dùng hoặc OneDrive dựa trên quyền dọn bản đệm trong chat lịch sử.
