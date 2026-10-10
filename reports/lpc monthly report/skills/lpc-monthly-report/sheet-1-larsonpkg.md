@@ -9,16 +9,16 @@ Quy trình do người dùng xác nhận ngày 10/10/2026. Đây là sheet báo 
 3. Lấy các chỉ số tương ứng và cập nhật dữ liệu mới. Cập nhật kỳ báo cáo, số liệu tháng hiện tại và tháng trước để phần so sánh đúng kỳ. Giữ công thức, định dạng và đơn vị; không lấy số liệu tháng 9 làm số liệu mặc định cho tháng mới.
 4. Nếu số campaign thay đổi, điều chỉnh vùng dữ liệu và tham chiếu công thức theo campaign thực tế; không gán campaign theo vị trí dòng cũ. Đối soát tổng và các chỉ số tính toán với nền tảng. Không tính tỷ lệ tổng bằng trung bình đơn giản các tỷ lệ campaign.
 
-### Subscriber không có chi tiêu
+### Campaign không có chi tiêu
 
-Quy tắc người dùng xác nhận ngày 11/10/2026:
+Quy tắc chung người dùng xác nhận ngày 11/10/2026, áp dụng cho mọi campaign và mọi nền tảng trong báo cáo LPC:
 
-- Kiểm tra Cost của campaign subscriber trong toàn bộ kỳ báo cáo. Nếu Cost = 0, không hiển thị campaign đó trong bảng Campaign performance của sheet `Larsonpkg`; không giữ dòng từ mẫu chỉ để ghi các số 0.
-- Khi không có chi tiêu và không có subscriber conversion, bỏ chỉ số `Youtube subscriber` bằng 0 khỏi Key metrics và không dành một dòng Performance Analysis cho campaign này. Nếu có conversion dù Cost = 0, giữ chỉ số cần giải thích và ghi rõ khác biệt.
-- Nếu subscriber có chi tiêu, hiển thị campaign và phân tích subscriber riêng với lead như quy trình hiện có.
-- Sau khi bỏ hoặc dịch dòng, cập nhật công thức LPC cost, Pelican cost, Lead, CPL và nguồn biểu đồ theo tên campaign. Giữ đúng định dạng số, tiền tệ và phần trăm của campaign được chuyển dòng; không giữ tham chiếu theo vị trí mẫu cũ.
-- Giữ dữ liệu gốc để đối soát và giữ cách loại subscriber khỏi lead/audience/location. Nếu tháng so sánh có subscriber hoạt động, vẫn loại subscriber khỏi mẫu số lead để so sánh đúng phạm vi; không đưa campaign không chi tiêu trở lại bảng kỳ hiện tại.
-- Cost = 0 là điều kiện bỏ khỏi bảng trình bày; khi cần ghi trạng thái Paused, phải xác minh trạng thái từ nền tảng.
+- Xét Cost trong đúng toàn bộ khoảng thời gian được yêu cầu. Campaign có Cost = 0 được coi là không chạy trong kỳ báo cáo và không hiển thị trong bảng campaign hoặc phần nhận xét riêng, bất kể loại campaign, mục tiêu subscriber/lead hay trạng thái Enabled/Paused hiện tại. Chỉ trình bày campaign có Cost > 0.
+- Không giữ các dòng campaign bằng 0 từ mẫu hoặc chỉ lọc riêng subscriber. Thu thập đầy đủ dữ liệu nguồn trước, rồi áp dụng bộ lọc chung Cost > 0 cho phần trình bày.
+- Bỏ chỉ số subscriber bằng 0 khi không có hoạt động subscriber trong kỳ. Khi subscriber có chi tiêu, vẫn hiển thị và phân tích riêng với lead theo quy trình hiện có.
+- Sau khi bỏ hoặc dịch dòng, cập nhật vùng dữ liệu, công thức LPC cost, Pelican cost, Lead, CPL và nguồn biểu đồ theo campaign thực tế. Giữ đúng định dạng số, tiền tệ và phần trăm; không giữ tham chiếu theo vị trí mẫu cũ.
+- Giữ dữ liệu nguồn để đối soát và giữ tổng nền tảng theo phạm vi nguồn. Nếu campaign Cost = 0 có conversion được ghi nhận muộn, vẫn không đưa campaign đó vào bảng; giải thích chênh lệch tổng nếu cần, không làm mất conversion trong đối soát.
+- Giữ cách loại subscriber khỏi lead/audience/location. Nếu kỳ so sánh có subscriber hoạt động, vẫn loại subscriber khỏi mẫu số lead để so sánh đúng phạm vi.
 
 ### Vị trí trong mẫu tháng 9/2026
 
@@ -36,7 +36,7 @@ Dùng công cụ **Ask Advisor tích hợp sẵn trong Google Ads**, trên đún
 2. `keyword và search term analysis`
 3. `competitors analysis`
 
-Đọc câu trả lời của Advisor, tóm tắt giản lược rồi ghi vào Excel. Khi subscriber có chi tiêu, phần performance phải tách subscriber campaign và các campaign khác; khi không có chi tiêu, áp dụng mục `Subscriber không có chi tiêu` ở trên. Không tự tạo câu trả lời rồi ghi như thể Advisor đã trả lời. Nếu không truy cập được Ask Advisor, báo phần phân tích bị chặn và yêu cầu câu trả lời xuất từ Advisor; vẫn tiếp tục phần dữ liệu có thể thực hiện.
+Đọc câu trả lời của Advisor, tóm tắt giản lược rồi ghi vào Excel. Khi subscriber có chi tiêu, phần performance phải tách subscriber campaign và các campaign khác; khi không có chi tiêu, áp dụng mục `Campaign không có chi tiêu` ở trên. Không tự tạo câu trả lời rồi ghi như thể Advisor đã trả lời. Nếu không truy cập được Ask Advisor, báo phần phân tích bị chặn và yêu cầu câu trả lời xuất từ Advisor; vẫn tiếp tục phần dữ liệu có thể thực hiện.
 
 Vị trí tham khảo trong mẫu:
 
