@@ -9,7 +9,7 @@ description: Thực hiện báo cáo LPC hằng tháng trong thư mục riêng, 
 
 Quy trình theo sheet đã được người dùng hướng dẫn:
 
-- Sheet 1 `Larsonpkg`: đọc và thực hiện `sheet-1-larsonpkg.md` trong cùng thư mục skill. Dữ liệu lấy từ tài khoản ads; phân tích Google Ads lấy từ Ask Advisor rồi tóm tắt vào Excel. Áp dụng mục `Subscriber không có chi tiêu` trong hướng dẫn sheet 1 để bỏ campaign subscriber có Cost = 0 khỏi bảng trình bày.
+- Sheet 1 `Larsonpkg`: đọc và thực hiện `sheet-1-larsonpkg.md` trong cùng thư mục skill. Dữ liệu lấy từ tài khoản ads; phân tích Google Ads lấy từ Ask Advisor rồi tóm tắt vào Excel. Áp dụng quy tắc chung `Campaign không có chi tiêu` trong hướng dẫn sheet 1: mọi campaign có Cost = 0 trong kỳ đều không hiển thị; chỉ trình bày campaign có Cost > 0, không phân biệt loại campaign.
 - Sheet 2 `Insight report`: đọc và thực hiện `sheet-2-insight-report.md` trong cùng thư mục skill. GA4 cho Session source; Google Ads cho audience và matched location. Ảnh audience do người dùng tự làm.
 - Sheet 3 `search term and keyword`: đọc và thực hiện `sheet-3-search-term-and-keyword.md`. Google Ads Search terms, column view theo mẫu, filter Cost > 0, trích xuất đầy đủ dữ liệu tháng mới.
 - Sheet 4 `data`: đọc và thực hiện `sheet-4-data.md`. Raw data Traffic acquisition từ GA4 và Region từ Google Ads; mọi dữ liệu Matched Location phải loại subscriber campaigns trước khi tổng hợp.
