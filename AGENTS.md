@@ -10,6 +10,7 @@ Lưu đầu ra theo tháng, giữ nguyên các báo cáo cũ. Không tự suy đ
 
 Mỗi báo cáo mới phải có thư mục riêng `reports/<tên báo cáo>/`, với skill, context, mẫu, dữ liệu, mã và đầu ra nằm trong thư mục đó. Chỉ áp dụng skill LPC cho LPC monthly report; không dùng quy tắc hoặc dữ liệu LPC cho báo cáo khác. Hướng dẫn ở gốc chỉ dùng để định tuyến và quy ước chung.
 
+Khi người dùng yêu cầu Jason weekly report, đọc `reports/Jason weekly report/skills/jason-weekly-report/SKILL.md`. Đây là báo cáo tuần cho Jason gồm Ballistix, Automate IT và Larson Packaging. LPC monthly report và Pelican monthly report thuộc Larson Packaging, nhưng vẫn có skill và mẫu riêng; không tự áp dụng quy tắc báo cáo tháng cho báo cáo tuần.
 
 ## Quy tắc chung sau bàn giao mọi báo cáo
 
