@@ -27,3 +27,7 @@ Quy tắc biểu đồ do người dùng xác nhận: nếu trong sheet có bi�
 8. Cập nhật `context/report-spec.md` với những quy tắc được người dùng xác nhận để những lần sau giảm việc hỏi lại. Kết thúc bằng đường dẫn báo cáo và kết quả kiểm tra; phân biệt việc lưu trong workspace với commit hoặc push lên GitHub.
 
 Mỗi task cloud đã có môi trường riêng. Dùng checkout hiện có, không tạo Git worktree trừ khi người dùng yêu cầu.
+
+## Bàn giao và file phát sinh
+
+Áp dụng skill chung `../../../../skills/report-delivery-cleanup/SKILL.md` (đường dẫn tính từ thư mục skill này). Sau bàn giao hỏi người dùng báo cáo đã xong chưa. Khi xác nhận xong, kiểm tra và liệt kê file nháp/raw data/file phát sinh cùng vị trí lưu để người dùng chọn xóa; không tự xóa. Quy tắc này thay thế mọi quyền dọn file được suy ra từ lịch sử cũ.
